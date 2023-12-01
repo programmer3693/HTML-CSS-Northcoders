@@ -14,10 +14,12 @@ body {
   .h1 {
     text-align: center;
     grid-row: 1 /span 2;
+  
   }
 
 p{
     text-align: center;
+    font-size: large;
 }
 
   .h2 {
@@ -44,17 +46,20 @@ p{
     display: grid;
     grid-column: 1 / span 2;
     text-align: center;
+    padding-top: 10%
   }
 
   .ordered-list-item{
     text-align: center;
     list-style-position: inside;
     color: fuchsia;
+    font-size: large;
 
   }
 
   .unordered-list{
     text-align: center;
     list-style-position: inside;
-    color: chartreuse;
+    color: navy;
+    font-size: large;
   }
