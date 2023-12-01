@@ -2,27 +2,31 @@ body {
     background-color: lightskyblue;
   }
 
-  img{
+  .img{
     border-radius: 50%;
     border: 5px solid magenta;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
   }
 
-  h1 {
+  .h1 {
     text-align: center;
+    grid-column: 1 /span 2;
   }
 
 p{
     text-align: center;
 }
 
-  h2 {
-    text-align: left;
+  .h2 {
+    text-align: center;
   } 
 
-  h3 {
+  .h3 {
     font-family: Arial;
-    text-align: right;
-    padding-right: 200px;
+    text-align: center;
   }
 
   a {
@@ -44,4 +48,7 @@ p{
     color: chartreuse;
   }
 
- 
+  .links{
+    display: grid;
+    grid-column: 1 / span 2;
+  }
