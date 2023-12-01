@@ -63,3 +63,10 @@ p{
     color: navy;
     font-size: large;
   }
+
+  .wrapper{
+    display :grid;
+    grid-template-columns: 300px 100px;
+  }
+
+  
